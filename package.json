@@ -1,0 +1,42 @@
+{
+  "name": "todos-node-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirWilliamIII/todo-node-mongo.git"
+  },
+  "author": "Will Carpenter <willcarpenteriii@gmail.com> (http://sirwilliamthethird.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirWilliamIII/todo-node-mongo/issues"
+  },
+  "homepage": "https://github.com/SirWilliamIII/todo-node-mongo#readme",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.1",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.15.4",
+    "gitignore": "^0.6.0",
+    "jsonwebtoken": "^7.4.3",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.12",
+    "validator": "^8.2.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "expect": "^1.20.2",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  }
+}
